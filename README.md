@@ -28,7 +28,9 @@ Once the user is logged in, EE will redirect them to their original destination.
 
 Use the offset is to ignore login templates.
 For example, if the full uri is:
+
 	/login/path/to/redirect/to
 
 and the offset is set to 1, the uri would be rewritten to:
+
 	/path/to/redirect/to
